@@ -14,7 +14,6 @@ import { Certifications } from "@/components/sections/Certifications"
 import { GitHubSection } from "@/components/sections/GitHubSection"
 import { TechStack } from "@/components/sections/TechStack"
 import { Contact } from "@/components/sections/Contact"
-import { AIChatbot } from "@/components/sections/AIChatbot"
 
 export default function App() {
   const { theme, toggleTheme } = useTheme()
@@ -34,7 +33,6 @@ export default function App() {
         <Certifications />
         <GitHubSection />
         <TechStack />
-        <AIChatbot />
         <Contact />
       </main>
       <Footer />
